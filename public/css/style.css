@@ -1,0 +1,230 @@
+.bgnavcolor{
+    background-color: #F4D772; 
+    
+}
+
+.formsinputs{
+    height: 35px;
+}
+
+
+
+
+
+.navitemcolor{
+    color: #CF2936;
+}
+
+
+.bodyconteudo{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+
+
+.boxnoticias{
+    margin: 20px;
+    color: black;
+    background-color: #F4D772;
+    border-radius: 15px;
+    padding-bottom: 10px;
+}
+
+
+.boxjogadores{
+    margin: 20px;
+    color: black;
+    background-color: #F4D772;
+    border-radius: 15px;
+    padding-bottom: 10px;
+}
+
+.contactobox{
+    color: black;
+    background-color: #F4D772;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.white{
+    color: white;
+}
+
+.inputtext{
+    width: 50%;
+    height: 100px;
+}
+
+
+.imgequipamento{
+    width: 100px;
+    height: auto;
+}
+
+.logoform{
+    width: 250px;
+    height: auto;
+}
+
+
+.logo{
+    width: 150px;
+    height: auto;
+}
+
+
+.divcont{
+    background-color:#40829c;
+    padding:20px;
+    color:white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: none;
+}
+
+
+.navbar-light .navbar-toggler-icon {
+     background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(255,255,255,1);
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(255,255,255,0);
+    border-color: rgba(255,255,255,0);
+}
+
+
+.imgprofile{
+    width: 75px;
+    height: auto;
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    padding-bottom: 0%;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+
+
+  .userbutton {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 0%;
+  }
+
+
+  .black{
+      color: #000;
+  }
+
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    padding: 0 18px;
+    
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    color: #000;
+}
+
+.accordion:after {
+    content: '\002B';
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+
+
+
+/*Switch*/
+
+.onoffswitch {
+    position: relative; width: 40px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #E3E3E3; border-radius: 50px;
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 5px; padding: 0; line-height: 5px;
+    font-size: 16px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "";
+    padding-left: 10px;
+    background-color: #40829C; color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: "";
+    padding-right: 10px;
+    background-color: #FFFFFF; color: #666666;
+    text-align: right;
+}
+.onoffswitch-switch {
+    display: block; width: 18px; margin: -6.5px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 31px;
+    border: 2px solid #E3E3E3; border-radius: 50px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px; 
+}
